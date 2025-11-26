@@ -1,4 +1,4 @@
-import './InformacoesPessoais.scss';
+import './InformacoesPessoais.css';
 
 export default function InformacoesPessoais() {
   return (
