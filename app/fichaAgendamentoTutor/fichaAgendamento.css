@@ -1,0 +1,90 @@
+body {
+  background-color: #a0c4ff;
+  margin: 0;
+  padding: 40px 0;
+  font-family: Arial;
+}
+
+/* Card */
+.ficha-container {
+  max-width: 900px;
+  margin: auto;
+  background: #fff;
+  padding: 35px 45px;
+  border-radius: 18px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+}
+
+/* Header */
+.ficha-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.titulo {
+  margin-top: 5px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+/* Grid geral */
+.row {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 18px;
+  margin-top: 25px;
+}
+
+/* Campo */
+.campo {
+  display: flex;
+  flex-direction: column;
+}
+
+.descricao-animal {
+  grid-column: span 3;
+}
+
+.input-readonly,
+textarea,
+select {
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  background: #f1f3f7;
+  padding: 8px 10px;
+}
+
+/* Seção */
+.titulo-secao {
+  margin-top: 40px;
+  text-align: center;
+  color: #ff8c00;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/* Botões */
+.ficha-actions {
+  display: flex;
+  justify-content: center;
+  margin-top: 35px;
+  gap: 20px;
+}
+
+.btn-salvar,
+.btn-voltar {
+  padding: 10px 24px;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  color: white;
+}
+
+.btn-salvar {
+  background: #4ea4ff;
+}
+
+.btn-voltar {
+  background: #ff8c00;
+}
